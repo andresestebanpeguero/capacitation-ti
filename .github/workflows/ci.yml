@@ -33,8 +33,8 @@ jobs:
         LC_ALL: "en_US.UTF-8"
       with:
         args: >
-          -Dsonar.projectKey=julian
-          -Dsonar.projectName=julian
+          -Dsonar.projectKey=Andres
+          -Dsonar.projectName=Andres
         projectBaseDir: .
     - name: SonarQube Quality Gate Check
       uses: SonarSource/sonarqube-quality-gate-action@v1.1.0
